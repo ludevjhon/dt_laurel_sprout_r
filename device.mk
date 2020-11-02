@@ -127,7 +127,7 @@ PRODUCT_COPY_FILES += \
 
 # FOD Permissions
 PRODUCT_COPY_FILES += \
-    vendor/evolution/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    vendor/bootleggers/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # AID/fs configs
 PRODUCT_PACKAGES += \
