@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_laurel_sprout.mk
+    $(LOCAL_DIR)/extended_laurel_sprout.mk
