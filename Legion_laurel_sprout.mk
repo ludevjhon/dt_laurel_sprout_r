@@ -19,10 +19,18 @@ $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 #$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Props
-EVO_MAINTAINER := HemantSachdeva
+EVO_MAINTAINER := jhonlu
 EVO_BUILD_TYPE := UNOFFICIAL
-EVO_SUPPORT_URL := https://t.me/EvolutionXA3
+DEV_SUPPORT_URL := https://t.me/devjhon_Legion_laurel_sprout
+LEGION_BUILD_TYPE := OFFICIAL
 
+ifeq ($(CURRENT_BUILD_TYPE), gapps)
+# Use Gapps
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+endif
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_WIFI_EXT := true
