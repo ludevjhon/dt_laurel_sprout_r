@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/laurel_sprout/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Inherit from custom vendor
 #$(call inherit-product, vendor/MiuiCamera/config.mk)
@@ -22,7 +22,7 @@ $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 EVO_MAINTAINER := jhonlu
 EVO_BUILD_TYPE := UNOFFICIAL
 DEV_SUPPORT_URL := https://t.me/devjhon_Legion_laurel_sprout
-LEGION_BUILD_TYPE := OFFICIAL
+
 
 ifeq ($(CURRENT_BUILD_TYPE), gapps)
 # Use Gapps
@@ -38,7 +38,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := legion_laurel_sprout
+PRODUCT_NAME := octavi_laurel_sprout
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A3
