@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_laurel_sprout.mk
+    $(LOCAL_DIR)/aicp_laurel_sprout.mk
