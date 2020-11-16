@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/laurel_sprout/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Inherit from custom vendor
 #$(call inherit-product, vendor/MiuiCamera/config.mk)
@@ -38,7 +38,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_laurel_sprout
+PRODUCT_NAME := bootleg_laurel_sprout
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A3
