@@ -270,7 +270,7 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libOmxG711Enc \
 
-    libstagefrighthw
+    libstagefrighthw \
 
 # DRM
 PRODUCT_PACKAGES += \
