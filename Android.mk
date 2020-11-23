@@ -8,7 +8,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),laurel_sprout)
 ifneq ($(SELINUX_IGNORE_NEVERALLOWS),true)
-
+endif
   subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 
