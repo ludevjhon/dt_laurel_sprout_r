@@ -19,9 +19,9 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 #$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Props
-EVO_MAINTAINER := jhonlu
-EVO_BUILD_TYPE := UNOFFICIAL
-DEV_SUPPORT_URL := https://t.me/devjhon_Legion_laurel_sprout
+XTENDED_BUILD_TYPE := OFFICIAL
+XTENDED_MAINTAINER := ludevjhon(Luciano)
+DEV_SUPPORT_URL :=https://t.me/lujhon_Xtended_laurel_sprout
 
 
 ifeq ($(CURRENT_BUILD_TYPE), gapps)
