@@ -234,3 +234,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/laurel_sprout/BoardConfigVendor.mk
+S         ELINUX_IGNORE_NEVERALLOWS=true
