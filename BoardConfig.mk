@@ -203,7 +203,7 @@ BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
 
 # Sepolicy
 #include device/qcom/sepolicy/sepolicy.mk
-SELINUX_IGNORE_NEVERALLOWS := true
+
 #BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 #BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
@@ -231,8 +231,8 @@ WIFI_DRIVER_STATE_OFF := "OFF"
 WIFI_DRIVER_STATE_ON := "ON"
 WIFI_HIDL_FEATURE_AWARE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
-SELINUX_IGNORE_NEVERALLOWS := true
+#SELINUX_IGNORE_NEVERALLOWS := true
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/laurel_sprout/BoardConfigVendor.mk
-S         
+         
