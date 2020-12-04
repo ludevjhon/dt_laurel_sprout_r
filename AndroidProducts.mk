@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_laurel_sprout.mk
+    $(LOCAL_DIR)/_laurel_sprout.mk
