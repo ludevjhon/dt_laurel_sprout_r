@@ -17,7 +17,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # A/B
 AB_OTA_UPDATER := true
-
+SAKURA_GAPPS=true
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
