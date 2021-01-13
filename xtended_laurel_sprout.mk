@@ -20,10 +20,10 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Props
 
-Lineage_MAINTAINER := ludevjhon(Luciano)
+Xtended_MAINTAINER := ludevjhon(Luciano)
 DEV_SUPPORT_URL :=https://t.me/lujhon_Xtended_laurel_sprout
 
-
+XTENDED_BUILD_TYPE := OFFICIAL
 ifeq ($(CURRENT_BUILD_TYPE), gapps)
 # Use Gapps
 TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
