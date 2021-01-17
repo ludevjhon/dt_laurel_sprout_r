@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/laurel_sprout/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/bootleg/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Inherit from custom vendor
 #$(call inherit-product, vendor/MiuiCamera/config.mk)
