@@ -63,7 +63,7 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/Image.gz-dtb
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_HEADERS := kernel/xiaomi/laurel_sprout
-
+TARGET_KERNEL_CONFIG := sdm660_defconfig
 # Enable stats logging in LMKD
 TARGET_LMKD_STATS_LOG := true
 
